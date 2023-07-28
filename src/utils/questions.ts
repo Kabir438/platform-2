@@ -1,10 +1,10 @@
 const questions = [
   {
     question: `
-    “I am Lord Voldemort”
-    -Tom Marvolo Riddle
-    “I am Nelda Williams” 
-    -___________________
+      “I am Lord Voldemort”
+      -Tom Marvolo Riddle
+      “I am Nelda Williams” 
+      -___________________
     `,
     answers: [
         "Madam Lillian Wise"

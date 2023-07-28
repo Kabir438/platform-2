@@ -103,9 +103,21 @@ const Quiz: React.FC = () => {
   return (
     <Paper elevation={3} style={{ padding: theme.spacing(3), maxWidth: '500px', margin: '0 auto', textAlign: 'center' }}>
       <Typography variant="h5">Question {currentQuestionIndex + 1}</Typography>
-      <Typography variant="body1" style={{ marginBottom: theme.spacing(2) }}>
-        {currentQuestion?.question}
-      </Typography>
+      {
+        currentQuestion?.question?.split("\n").map((line, index) => (
+          <Typography 
+            key={`line-${index}`}
+            variant="body1" 
+            textAlign={"left"}
+            style={{ 
+              marginBottom: index === ((currentQuestion?.question?.split("\n").length || -10) - 1) ? theme.spacing(2) : 0
+            }}
+            margin={0}
+          >
+            {line}
+          </Typography>
+        ))
+      }
       {
         currentQuestion.image && <Image
           alt={currentQuestion.image.replace("/", "").replaceAll("-", "").replace(".png", "")}
