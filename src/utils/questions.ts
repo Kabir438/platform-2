@@ -20,7 +20,7 @@ const questions = [
   },
   {
     question: `
-    Check for the surrounding clock, use elimination and decode the morse code. 
+    Check for the surrounding clock, use elimination and decode the morse code.
 
     Enter the remedy and seek the end.
     `,
