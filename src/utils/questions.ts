@@ -11,7 +11,9 @@ const questions = [
     ]
   },
   {
-    question: "“I am the messenger of the great truth, the great inevitability. And just like no one can escape that grave truth, no one can also stop me, I only go forward despite everyone wishing that I would go back.”",
+    question: `
+      “I am the messenger of the great truth, the great inevitability. And just like no one can escape that grave truth, no one can also stop me, I only go forward despite everyone wishing that I would go back.”
+    `,
     answers: [
         "Time"
     ]
