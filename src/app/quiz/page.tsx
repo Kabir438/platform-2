@@ -95,7 +95,7 @@ const Quiz: React.FC = () => {
   if (isQuizCompleted) {
     return (
       <Paper elevation={3} style={{ padding: theme.spacing(3), maxWidth: '500px', margin: '0 auto', textAlign: 'center' }}>
-        <Typography variant="h5">Congratulations! Your location is at 38.433122, -79.8398361</Typography>
+        <Typography variant="h5">Congratulations! you have successfully found the remedy and completed the discovery stage.</Typography>
       </Paper>
     );
   }
