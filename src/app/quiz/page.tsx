@@ -113,6 +113,7 @@ const Quiz: React.FC = () => {
               marginBottom: index === ((currentQuestion?.question?.split("\n").length || -10) - 1) ? theme.spacing(2) : 0
             }}
             margin={0}
+            minHeight={7.5}
           >
             {line}
           </Typography>
